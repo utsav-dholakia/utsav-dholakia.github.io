@@ -57,7 +57,7 @@ img {
 }
 /*-- //Reset Code --*/
 .scrollButton{
-	
+
 }
 .scrollButton .fa{
 	font-size: 30px;
@@ -208,7 +208,7 @@ label.line {
 
 /*--skills --*/
 .skills{
-	background:url('../images/skillsbg.jpg') no-repeat 0px 0px;
+	background:url('../images/skillsbg1.jpg') no-repeat 0px 0px;
 	text-align:left;
 	background-size: cover;
 }
@@ -500,7 +500,7 @@ label.line {
 }
 .resp-tabs-container {
 	padding: 0px;
-	clear: left;	
+	clear: left;
 }
 h2.resp-accordion {
 	cursor: pointer;
