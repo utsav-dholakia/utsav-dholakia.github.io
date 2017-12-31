@@ -67,9 +67,9 @@ img {
 /*-- banner --*/
 .banner{
 	padding:95px 0px;
-	/*background:url(../images/banner6.jpg) no-repeat 0px 0px;*/
+	background:url(../images/Personal_Profile_cover1.JPG) no-repeat 0px 0px;
 	background-size:cover;
-	min-height:350px;
+	min-height:400px;
 	background-color: #722;
 }
 .b-part1{
@@ -80,19 +80,20 @@ img {
 	border-radius: 25%;
 }
 .b-part1 h1{
-	font-size:22px;
+	font-size:42px;
 	color:#fff;
 	margin-top:15px;
 }
 .b-part1 h2{
-	font-size:16px;
+	font-size:24px;
 	color:#fff;
 	margin-top:10px;
 }
 .b-part2 h3,.b-part3 h3,.b-part4 h3{
 	color:#fff;
-	font-size:28px;
-	margin-bottom:25px;
+	font-size:20px;
+	margin-top:30px;
+	margin-bottom: 10px;
 }
 .b-part2 h4{
 	font-size:14px;
@@ -108,13 +109,13 @@ h4.agile{
 .b-part3{
 	text-align:center;
 }
-.b-part3 .fa {
+.b-part1 .fa {
     color: #fff;
     font-size: 20px;
     padding: 10px;
     border: 2px solid #fff;
-    width: 21%;
-    margin: 0px 8px;
+    /*width: 15%;*/
+    margin: 20px 8px;
     text-align: center;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -122,21 +123,26 @@ h4.agile{
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-.b-part3 .fa-facebook:hover{
+.b-part1 .fa-facebook:hover{
 	color:#ffffff;
 	background-color: #3b5998;
 	border: 2px solid #3b5998;
 }
-.b-part3 .fa-linkedin:hover{
+.b-part1 .fa-linkedin{
 	color:#ffffff;
 	background-color: #007bb6;
 	border: 2px solid #007bb6;
 }
-.b-part3 .fa-github:hover{
+.b-part1 .fa-github{
 	background-color: #000;
 	border: 2px solid #000;
 }
-.b-part3 .fa-facebook,.b-part3 .fa-linkedin,.b-part3 .fa-pinterest{
+.b-part1 .fa-envelope{
+	color:#ffffff;
+	background-color: #3b5998;
+	border: 2px solid #3b5998;
+}
+.b-part1 .fa-facebook,.b-part1 .fa-linkedin,.b-part1 .fa-envelope,.b-part1  .fa-github{
 	margin-bottom:20px
 }
 .b-part4{
@@ -170,6 +176,13 @@ h4.agile{
 	color:#fff;
 	font-size:17px;
 	margin-top:35px;
+}
+.b-part1{
+	background-color: #00000082;
+	padding-top: 10px;
+}
+.banner h1, .banner h2, .banner h3, .banner h4{
+	color: #fff8dc;
 }
 /*-- //banner --*/
 
@@ -350,7 +363,7 @@ label.line {
     /*min-height: 533px;*/
     position: relative;
     padding: 7em 0 7em 0;
-		color: #fff;
+		color: #000;
 }
 .projects h3{
 	font-size: 36px;
@@ -680,7 +693,7 @@ h4.modal-title {
 	/*background:url('../images/contactbg.jpg') no-repeat 0px 0px;*/
 	background-size:cover;
 	/*background-color: #69a2b9;*/
-	background-color: #722;
+	background-color: #294984;
 }
 .contact h3{
 	color:#fff;
@@ -779,7 +792,7 @@ input[type="submit"]:hover{
 		font-size: 25px;
 	}
 	.b-part1 h2 {
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.b-part2 h3, .b-part3 h3, .b-part4 h3 {
 		font-size: 20px;
@@ -880,7 +893,7 @@ input[type="submit"]:hover{
 }
 @media (max-width:768px) {
 	.b-part1{
-		margin-bottom: 15px;
+		padding: 15px 0 15px 0;
 	}
 	/*.b-part1 h1 {
 		font-size: 25px;
@@ -1152,6 +1165,9 @@ input[type="submit"]:hover{
 	}
 }
 @media (max-width:384px) {
+	.banner{
+		margin-left: -25px;
+	}
 	.project-grid p {
 		font-size: 1.1em;
 	}
@@ -1166,6 +1182,9 @@ input[type="submit"]:hover{
 	}
 }
 @media (max-width:375px) {
+	.banner{
+		margin-left: -25px;
+	}
 	.about h3, .skills h3, .portfolio h3, .blog h3, .contact h3 {
 		font-size: 30px;
 	}
@@ -1186,6 +1205,10 @@ input[type="submit"]:hover{
 	/*.b-part1, .b-part2, .b-part3, .b-part4 {
 		height: 140px;
 	}*/
+	.banner{
+		margin-left: -65px;
+	}
+
 	.b-part1 h1 {
     	font-size: 20px;
 	}
