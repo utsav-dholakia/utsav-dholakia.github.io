@@ -190,7 +190,7 @@ label.line {
     margin: 12px auto;
 }
 .about img {
-    width: 10%;
+    width: 20%;
     border-radius: 50%;
 	margin-top:35px;
 }
@@ -208,7 +208,7 @@ label.line {
 
 /*--skills --*/
 .skills{
-	background:url('../images/skillsbg1.jpg') no-repeat 0px 0px;
+	background:url('../images/skillsbg.jpg') no-repeat 0px 0px;
 	text-align:left;
 	background-size: cover;
 }
@@ -664,8 +664,10 @@ h4.modal-title {
 
 /*-- contact --*/
 .contact{
-	background:url('../images/contactbg.jpg') no-repeat 0px 0px;
+	/*background:url('../images/contactbg.jpg') no-repeat 0px 0px;*/
 	background-size:cover;
+	/*background-color: #69a2b9;*/
+	background-color: #722;
 }
 .contact h3{
 	color:#fff;
@@ -726,6 +728,10 @@ input[type="submit"]{
 input[type="submit"]:hover{
 	color: #F58703;
 	border:1px solid #F58703;
+}
+.contact .scrollButton{
+	white-space: pre;
+	color: #c7c7c7;
 }
 /*-- //contact --*/
 
