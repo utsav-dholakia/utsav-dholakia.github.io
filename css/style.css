@@ -342,14 +342,27 @@ label.line {
 
 /*-- projects --*/
 .projects {
-    background: url(../images/projectbg.jpg) no-repeat 0px 0px;
+    background: url(../images/projectbg.jpeg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    min-height: 533px;
+    /*min-height: 533px;*/
     position: relative;
-    padding-top: 12em;
+    padding: 7em 0 7em 0;
+		color: #fff;
+}
+.projects h3{
+	font-size: 36px;
+}
+.projects-grids{
+	font-size: 16px;
+	margin:2em 0 0;
+	text-align: left;
+}
+.recommendation-giver{
+	padding-top: 5px;
+	text-align: right;
 }
 .cycle{
 	text-align:center;
@@ -730,7 +743,6 @@ input[type="submit"]:hover{
 	border:1px solid #F58703;
 }
 .contact .scrollButton{
-	white-space: pre;
 	color: #c7c7c7;
 }
 /*-- //contact --*/
